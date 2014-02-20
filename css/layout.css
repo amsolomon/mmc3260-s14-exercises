@@ -70,6 +70,12 @@ aside h2 {
     line-height: 44px
 }
 
+article img {
+    float: left;
+    padding: 0px; /* TRouBLe */
+    margin-right: 50px;
+}    
+
 footer {
     color: #000000;
     padding: 0 10px 0 10px;
