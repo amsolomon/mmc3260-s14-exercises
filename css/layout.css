@@ -29,12 +29,6 @@ header img {
     padding: 0px; /* TRouBLe */
     margin-right: 50px;
 }
-
-figure img {
-    float: right;
-    padding: 0px; /* TRouBLe */
-    margin-right: 0px;   
-}
     
 header nav {
     float: left;
@@ -59,7 +53,8 @@ header a:active {
 header a:focus {}
 
 article {
-    width: 50%;
+    float: left;
+    width: 100%;
     clear: both;
     padding 0 10px 0px 10px;
 }    
@@ -69,18 +64,21 @@ article h1 {
     font-family: georgia, serif;
     font-size: 36px;
     line-height: 44px
+}
 
-aside h2 {
+article h2 {
     color: #111111;
     font-family: georgia, serif;
     line-height: 44px
-}
+}   
 
-article img {
-    float: left;
+div article img {
+    width: 50%
+    height: 300px;
+    float: right;
     padding: 0px; /* TRouBLe */
-    margin-right: 50px;
-}    
+    margin-right: 0px;
+} 
 
 footer {
     color: #000000;
