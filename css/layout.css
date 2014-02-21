@@ -19,9 +19,11 @@ p {
 }    
 
 header {
+    float: left
     background-color: #ffffff;
     color: #ffffff;
     height: 150px;
+    
 }    
 
 header img {
@@ -31,8 +33,8 @@ header img {
 }
     
 header nav {
-    float: left;
-    margin-top: 60px;    
+    margin-top: 60px;
+    
 }
 
 header a {
@@ -59,20 +61,31 @@ article {
     padding 0 10px 0px 10px;
 }    
 
+aside img {
+    width: 50%
+    height: 300px;
+    float: right;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
 article h1 {
 	color: #111111;
     font-family: georgia, serif;
     font-size: 36px;
     line-height: 44px
+    
 }
 
 article h2 {
     color: #111111;
     font-family: georgia, serif;
     line-height: 44px
-}   
-
+    
+}  
+  
 footer {
+    clear: both;
     color: #000000;
     padding: 0 10px 0 10px;
 }
