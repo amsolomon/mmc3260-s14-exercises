@@ -61,12 +61,22 @@ article {
     padding 0 10px 0px 10px;
 }    
 
-aside img {
+figure img {
     width: 50%
     height: 300px;
     float: right;
+    margin: 5px 5% 5px 5%;
+    padding: 5px 5% 5px 5%;
+}
+
+figure figcaption {
+    width: 50%;
+    height: 30px;
+    float: right;
+    margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    clear:both
 }
 
 article h1 {
