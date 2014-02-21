@@ -54,8 +54,8 @@ header a:focus {}
 
 article {
     float: left;
-    width: 100%;
     clear: both;
+    width: 100%;
     padding 0 10px 0px 10px;
 }    
 
@@ -72,58 +72,10 @@ article h2 {
     line-height: 44px
 }   
 
-div article img {
-    width: 50%
-    height: 300px;
-    float: right;
-    padding: 0px; /* TRouBLe */
-    margin-right: 0px;
-} 
-
 footer {
     color: #000000;
     padding: 0 10px 0 10px;
 }
 
-        }
-
 
     
-h2 {
-
-}
-
-p {
-
-}
-
-img {
-
-}
-
-
-/* Container or module styles probably come next. */
-
-header {
-
-}
-
-nav {
-
-}
-
-nav a {
-
-}
-
-section {
-
-}
-
-
-
-/* Class and ID styles come last because they are the most specific. */
-
-#copyright {
-
-}
